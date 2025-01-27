@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { createHashRouter } from 'react-router-dom'
 import { getDefaultLayout } from './components/layout/index'
 import ErrorPage from './pages/error';

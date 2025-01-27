@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero from './sections/hero'
 import Cloud from './sections/cloud'
 import MealGrid from './sections/mealGrid'

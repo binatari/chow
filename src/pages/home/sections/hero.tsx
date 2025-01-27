@@ -3,7 +3,7 @@ import Carousel from '@/components/ui/carousel';
 import { Icons } from '@/components/ui/icons';
 import { Input } from '@/components/ui/input';
 import { useInView, motion, } from 'framer-motion';
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 
 
 const AnimatedSVG = () => {

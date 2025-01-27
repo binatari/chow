@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card } from '../ui/card'
 import { Badge } from '../ui/badge'
 import { motion } from 'framer-motion'; // Importing Framer Motion

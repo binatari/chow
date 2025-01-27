@@ -1,6 +1,6 @@
 import MealCards from '@/components/cards/mealCards'
 import { motion } from 'framer-motion'
-import React from 'react'
+
 
 const greenCards = [
     '/green-card-1.svg',

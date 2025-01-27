@@ -1,6 +1,6 @@
 import { Icons } from '@/components/ui/icons'
 import { motion } from 'framer-motion';
-import React from 'react'
+
 
 const CloudAnimation = () => {
     return (
