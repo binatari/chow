@@ -57,13 +57,13 @@ const MealGrid = () => {
     </div>
   
     {/* Image */}
-    <div className='relative rounded-[14px]'>
+    <div className='relative rounded-[14px] mt-20 md:mt-0'>
         <div className='rounded-[14px] bg-white overflow-hidden h-full  w-full px-3 py-1'>
-        <img src="/grey-shirt-human.png" alt="Grey shirt human" className='w-full object-cover h-full rounded-[14px]' />  
+        <img src="/grey-shirt-human.png" alt="Grey shirt human" className='w-full object-cover md:h-full rounded-[14px] h-[517px]' />  
         </div>
 
       <motion.div
-      className="space-y-1 absolute bottom-20 -left-8"
+      className="md:space-y-1 absolute bottom-1 md:bottom-20 -left-8"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -81,7 +81,7 @@ const MealGrid = () => {
       ))}
     </motion.div>
     <motion.div
-      className="space-y-1 absolute top-10 -right-5"
+      className="space-y-1 absolute top-10 right-5 md:-right-5"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
