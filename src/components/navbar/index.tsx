@@ -9,7 +9,7 @@ import NavContent from './navContent'
 
 const DashboardNav = () => {
   return (
-    <header className="fixed left-0 top-0 flex justify-between h-14 w-full items-center gap-4 bg-white pl-4 pr-4 md:pl-[320px] lg:h-[60px] md:hidden ">
+    <header className="fixed left-0 top-0 flex justify-between h-14 w-full items-center gap-4 bg-white z-10 pl-4 pr-4 md:pl-[320px] lg:h-[60px] md:hidden ">
     <Link to="/" className="flex items-center gap-2 font-semibold">
             <img src="/small-logo.svg"/>
             </Link>
