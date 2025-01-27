@@ -22,18 +22,7 @@ const DashboardNav = () => {
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="flex flex-col">
-          <nav className="grid gap-2 text-lg font-medium">
-            <Link
-              to="/"
-              className="flex items-center gap-2 text-lg font-semibold"
-            >
-              <img
-                src="/small-logo.svg"
-                className="mr-3 h-10"
-                alt="Home Logo"
-              />
-              <span className="sr-only">Chow Africa</span>
-            </Link>
+          <nav className="grid gap-2 text-lg font-medium pt-6">
            <NavContent/>
           </nav>
         </SheetContent>
