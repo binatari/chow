@@ -1,9 +1,10 @@
 import { Button } from '@/components/ui/button';
-import Carousel from '@/components/ui/carousel';
 import { Icons } from '@/components/ui/icons';
 import { Input } from '@/components/ui/input';
 import { useInView, motion, } from 'framer-motion';
+import Marquee from 'react-fast-marquee'
 import { useRef } from 'react'
+import MealCards from '@/components/cards/mealCards';
 
 
 const AnimatedSVG = () => {
@@ -106,7 +107,17 @@ const Hero = () => {
         </div>
         <div/>
         <div className=' absolute w-full bottom-0 left-0  overflow-visible '>
-                <Carousel/>
+               <Marquee className='overflow-hidden grid gap-4 items-end'>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+                <MealCards/>
+               </Marquee>
         </div>
     </div>
   )

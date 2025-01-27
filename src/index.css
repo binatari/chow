@@ -63,6 +63,17 @@ body{
   font-family: "Courgette", serif;
 }
 
+.rfm-marquee, .rfm-initial-child-container{
+  align-items:flex-end !important;
+}
+
+@media (max-width: 768px) {
+  .rfm-marquee, .rfm-initial-child-container {
+    gap: 10px !important;
+  }
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
